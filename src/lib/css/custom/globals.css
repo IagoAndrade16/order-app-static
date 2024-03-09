@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    font-family: "UberMove";
+    box-sizing: border-box;
+  }
+
+  /* input[type="checkbox"] {
+    accent-color: #408d72;
+    min-width: 13px !important;
+    min-height: 13px !important;
+    width: 13px !important;
+    height: 13px !important;
+  }
+
+  .collapse {
+    visibility: visible !important;
+  }
+
+  .collapse {
+    visibility: visible !important;
+  }
+
+  html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+  }
+
+  input:-webkit-autofill,
+  textarea:-webkit-autofill,
+  select:-webkit-autofill {
+    border: 0;
+    border-bottom: 1px solid #535c61;
+    caret-color: white;
+    -webkit-box-shadow: 0 0 0 30px #0c0e10 inset !important;
+    -webkit-text-fill-color: white !important;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  textarea:-webkit-autofill:hover,
+  textarea:-webkit-autofill:focus,
+  select:-webkit-autofill:hover,
+  select:-webkit-autofill:focus {
+    border-color: #99e8d0;
+  }
+
+  .border-gradient-white-b {
+    border: 1px solid transparent;
+    border-radius: 1.6rem;
+    background: linear-gradient(to right, #232628, #232628),
+      linear-gradient(to bottom, #8e9091, #232628);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+  }
+
+  .border-gradient-white-t {
+    background: linear-gradient(to right, #323839, #323839),
+      linear-gradient(to top, #8e9091, #ffffff00);
+    border: 1px solid transparent;
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+  } */
+
+  @font-face {
+    font-family: "UberMove";
+    src: url("/fonts/UberMoveTextLight.otf");
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "UberMove";
+    src: url("/fonts/UberMoveTextRegular.otf");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "UberMove";
+    src: url("/fonts/UberMoveTextMedium.otf");
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "UberMove";
+    src: url("/fonts/UberMoveTextBold.otf");
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+
+/*Sweetalert CSS customization*/
+.swal2-title {
+  font-size: 3rem !important;
+}
+.swal2-html-container {
+  font-size: 1.5rem !important;
+}
+.swal2-styled {
+  padding: 0.8em 2em !important;
+}
+.swal2-styled.swal2-confirm {
+  font-size: 1.25em !important;
+}
+.swal2-styled.swal2-cancel {
+  font-size: 1.25em !important;
+}
+
+/* svelte-multiselect customization */
+.multiselect {
+  min-height: 38.28px;
+}

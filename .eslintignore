@@ -1,0 +1,27 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+
+**/js/**
+
+# Ignore files for PNPM, NPM and YARN
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+package.json
+
+vite.config.js
+svelte.config.js
+tsconfig.json
+cypress.config.ts
+playwright.config.ts
+
+*.spec.cy.ts
+cypress/**/*.ts
+jest.config.ts
